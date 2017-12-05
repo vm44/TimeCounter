@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/add_folder" android:title="@string/main_menu_add_folder"></item>
+    <item android:id="@+id/add_counter" android:title="@string/main_menu_add_counter"></item>
+    
+
+</menu>

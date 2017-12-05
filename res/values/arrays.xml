@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="select_dialog_items2">
+        <item>Group and children</item>
+        <item>Group only</item>
+        <item>Children only</item>
+    </string-array>
+    
+    <string-array name="today_pie_chart_modes">
+        <item>24H</item>
+        <item>AM/PM</item>
+        <item>Last 10 hrs.</item>
+    </string-array>
+    
+    <string-array name="filter_targets">
+        <item>Log</item>
+        <item>Report</item>
+    </string-array>
+    
+    <string-array name="filter_intervals">
+        <item>Last Day</item>
+        <item>Current Week</item>
+        <item>Last Week</item>
+        <item>Current Month</item>
+        <item>Last Month</item>
+        <item>Custom</item>
+        </string-array>
+    
+    <string-array name="elr_changeItemSelect">
+        <item>Name</item>
+        <item>Start Time</item>
+        <item>End Time</item>
+        <item>Span</item>
+        </string-array>
+    
+    <string-array name="countersLinksManager_ContextMenuItems">
+        <item>Add Folder</item>
+        <item>Add Counter</item>
+        <item>Edit Item</item>
+        <item>Delete</item>
+    </string-array>
+    
+    <string-array name="item_type">
+        <item>Folder</item>
+        <item>Counter</item>
+    </string-array>
+    
+</resources>

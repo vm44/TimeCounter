@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, TimeCounterActivity!</string>
+    <string name="app_name">TimeCounter</string>
+    <string name="main_menu_add_folder">Add Folder</string>
+    <string name="main_menu_add_counter">Add Counter</string>
+    <string name="alert_dialog_username">Name:</string>
+    <string name="alert_dialog_password">Password:</string>
+    <string name="alert_dialog_single_choice">Single choice list</string>
+    <string name="alert_dialog_text_entry">Text Entry dialog</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_hide">Hide</string>
+    <string name="alert_dialog_something">Something</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_two_buttons">OK Cancel dialog with a message</string>
+    <string name="alert_dialog_two_buttons_title">Delete All?</string>
+    <string name="alert_dialog_delete_data">Delete Data?</string>
+    <string name="select_dialog">Select action</string>
+    <string name="elr_select_dialog">Select item</string>
+    <string name="select_activity_name">Select Name</string>
+    <string name="FiltersActivityActivityLabel">Set Time Interval</string>
+</resources>

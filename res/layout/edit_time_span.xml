@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ts_editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/ts_radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/from_start_radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="From Start" />
+
+        <RadioButton
+            android:id="@+id/from_end_radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From End" />
+
+    </RadioGroup>
+
+</LinearLayout>

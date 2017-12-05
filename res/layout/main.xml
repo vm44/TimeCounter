@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+	     
+	     <TextView
+	        android:id="@+id/running_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Time" />
+
+	     </LinearLayout>
+   
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    
+
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <Spinner
+             android:id="@+id/today_pie_chart_mode_spinner1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" />
+
+         <Button
+             android:id="@+id/button_switch_to"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Switch to..." />
+     </LinearLayout>
+    
+	<LinearLayout android:id="@+id/chart" 
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="1" />
+
+
+
+</LinearLayout>
+

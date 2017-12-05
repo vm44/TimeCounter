@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/button_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove" />
+    
+    <Button
+        android:id="@+id/button_zero_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set All to Zero" />
+    
+    <Button
+        android:id="@+id/button_remove_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove All" />
+    
+    <Button
+        android:id="@+id/button_remove_all_counters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove All Counters" />
+    
+</LinearLayout>

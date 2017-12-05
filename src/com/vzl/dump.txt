@@ -1,0 +1,146 @@
+        //headDB=new HelperDataBase(this, DBDescrs.DB_HEADERS_FILENAME,
+				//DBDescrs.Q_CREATE_HEADERS_TABLE);
+		//cntDB=new HelperDataBase(this, DBDescrs.DB_FILENAME, 
+				//DBDescrs.Q_CREATE_COUNTERS_TABLE);
+
+
+		//cursorC=dbr.query(DBDescrs.TN_COUNTERS_VALUES, S_FROM,null, null, null, null, DBDescrs.CT_ID);//DBDescrs.CT_COUNTER_NAME);
+		//cursorC=dbr.query(DBDescrs.TN_HEADERS, FROM, null, null, null, null, DBDescrs.CT_CATEGORY_1_NAME);
+		/*
+		cursorC=dbr.rawQuery("select "+
+		
+				DBDescrs.CT_ID+","+
+				DBDescrs.CT_CATEGORY_1_NAME+","+
+				DBDescrs.CT_BUSINESS_NAME+","+
+				" from "+DBDescrs.TN_HEADERS,null);
+		
+		cursorC=dbr.rawQuery("select "+
+				DBDescrs.TN_HEADERS+"."+DBDescrs.CT_ID+","+
+				DBDescrs.TN_HEADERS+"."+DBDescrs.CT_CATEGORY_1_NAME+","+
+				DBDescrs.TN_HEADERS+"."+DBDescrs.CT_BUSINESS_NAME+","+
+				DBDescrs.TN_COUNTERS_VALUES+"."+DBDescrs.CT_COUNTER_VALUE+
+				" from "+DBDescrs.TN_HEADERS+","+DBDescrs.TN_COUNTERS_VALUES,null);
+		*/
+//		cursorC=dbr.rawQuery("select "+DBDescrs.CT_COUNTER_VALUE+
+	//			" from "+DBDescrs.TN_COUNTERS_VALUES+","+DBDescrs.TN_HEADERS,null);
+		
+//    	cursorC=dbr.rawQuery("select category_1,_id from headers", null);
+    	//cursorC=dbr.rawQuery("select category_1,business,_id from headers", null);
+//    	cursorC=dbr.rawQuery("select headers._id,headers.category_1,headers.business,counters_values.counter_value from headers,counters_values", null);
+//    	cursorC=dbr.rawQuery("select headers.category_1,counters_values.counter_value from headers,counters_values", null);
+//    	cursorC=dbr.rawQuery("select headers.category_1,counters_values.counter_value from headers,counters_values where headers._id = counters_values.counter_id", null);
+		/*
+    	cursorC=dbr.rawQuery("select "+
+				DBDescrs.TN_COUNTERS_VALUES+"."+DBDescrs.CT_ID+","+
+				DBDescrs.TN_COUNTERS_VALUES+"."+DBDescrs.CT_COUNTER_VALUE+","+
+				DBDescrs.TN_HEADERS+"."+DBDescrs.CT_CATEGORY_1_NAME+","+
+				DBDescrs.TN_HEADERS+"."+DBDescrs.CT_BUSINESS_NAME+","+
+				" from "+DBDescrs.TN_COUNTERS_VALUES+","+DBDescrs.TN_HEADERS,null);
+    	*/
+    	
+    	
+		/*
+		int c=cursorC.getColumnCount();
+		String[] cs=cursorC.getColumnNames();
+		
+		while(cursorC.moveToNext())
+		{
+			//String bName=getBusinessFullName(cursorC.getInt(2));
+			
+			String st0=new String(cursorC.getString(0));
+			String st1=new String(cursorC.getString(1));
+			String st2=new String("");//String.valueOf(cursorC.getInt(2)));
+			itms.add(st0+" "+st1+" "+st2);
+		}
+		*/
+    	
+    	
+    	
+		/*
+		File file = new File(getExternalFilesDir(null), "bList.txt");
+		
+		if(file != null)
+		try {
+			//InputStream is=new FileInputStream(file);
+			Scanner sc=new Scanner(file);
+			int ii=0;
+			while(sc.hasNext())
+			{
+				String s=sc.nextLine();
+				items[ii]=s;
+				ii++;
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		*/
+		
+		//mText=(TextView)findViewById(R.id.textView1);
+		
+		//setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itms));
+    	
+
+    	
+    	
+		protected void onStop()
+		{/*
+			final String DNAME="MyFilez";
+			final String FILENAME="MyFile.txt";
+			
+			boolean mExternalStorageAvailable = false;
+			boolean mExternalStorageWriteable = false;
+			String state = Environment.getExternalStorageState();
+
+			if (Environment.MEDIA_MOUNTED.equals(state)) {
+			    // We can read and write the media
+			    mExternalStorageAvailable = mExternalStorageWriteable = true;
+			} else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
+			    // We can only read the media
+			    mExternalStorageAvailable = true;
+			    mExternalStorageWriteable = false;
+			} else {
+			    // Something else is wrong. It may be one of many other states, but all we need
+			    //  to know is we can neither read nor write
+			    mExternalStorageAvailable = mExternalStorageWriteable = false;
+			}
+			
+			//Create a new directory on external storage
+			File rootPath = new File(Environment.getExternalStorageDirectory(), DNAME);
+			if(!rootPath.exists()) {
+			rootPath.mkdirs();
+			}
+			//Create the file reference
+			File dataFile = new File(rootPath, FILENAME);
+			//Create a new file and write some data
+			
+			//File file = new File(getExternalFilesDir(null), "bList2.txt");
+			//Create the file reference
+			File file = new File(Environment.getExternalStorageDirectory(), "bList2.txt");
+			
+			if(file != null)
+			{
+				try {
+					OutputStream os=new FileOutputStream(file);
+//					OutputStream os=openFileOutput("bList.txt",Context.MODE_PRIVATE);
+					int ii=0;
+					while(ii<items.length)
+					{
+						String ss=items[ii]+'\n';
+						os.write(ss.getBytes());
+						ii++;
+					}
+					os.close();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					
+				}
+			}*/
+			super.onStop();
+			
+		}
+    	
